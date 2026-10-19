@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#244b35">
+    <meta name="description" content="Herencia y Sabor: gastronomía tradicional de Obonuco, preparada con tradición, cariño y sabor andino.">
+    <title>Herencia y Sabor | Gastronomía Tradicional</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="carrito.js" defer></script>
+</head>
+
+<body>
+    <header class="encabezado" id="inicio">
+        <nav class="navegacion" aria-label="Navegación principal">
+            <a class="marca" href="#inicio" aria-label="Herencia y Sabor, inicio">
+                <span class="marca-icono">✦</span>
+                <span>Herencia <span class="marca-y">&</span> Sabor</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button"
+                    aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="menu" id="menu-principal">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nuestra historia</a></li>
+                <li><a href="#ventajas">Nuestra esencia</a></li>
+                <li><a href="#productos">Menú</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#testimonios">Opiniones</a></li>
+                <li><a href="#contacto" class="enlace-contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-texto">
+                <span class="etiqueta">TRADICIÓN GASTRONÓMICA DE OBONUCO</span>
+                <h1>Sabores que cuentan<br>historias <em>de nuestra tierra.</em></h1>
+                <p>
+                    Una herencia familiar que vive en cada plato.
+                    Descubre la tradición, el cariño y los sabores auténticos
+                    de nuestra cocina andina.
+                </p>
+                <div class="hero-botones">
+                    <a href="#productos" class="boton boton-principal">Descubrir nuestro menú <span>→</span></a>
+                    <a href="#nosotros" class="boton boton-secundario">Conoce nuestra historia</a>
+                </div>
+                <div class="hero-nota">
+                    <span class="nota-icono">✦</span>
+                    <span>Tradición familiar desde 2021</span>
+                </div>
+            </div>
+
+            <div class="hero-imagen">
+                <img src="imagenes/fondo.png" alt="Gastronomía tradicional de Herencia y Sabor" class="banner">
+                <div class="sello">
+                    <span>HECHO CON</span>
+                    <strong>Tradición</strong>
+                    <span>Y MUCHO SABOR</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="historia seccion" id="nosotros">
+            <div class="historia-intro">
+                <span class="etiqueta">NUESTRA HISTORIA</span>
+                <h2>Una tradición que<br><em>se sirve en la mesa.</em></h2>
+                <p>
+                    Herencia y Sabor nació en 2021 en el pueblo de Obonuco,
+                    como un emprendimiento gastronómico de María del Carmen
+                    Jojoa y Ángela Victoria Rosero. Es un homenaje al legado
+                    familiar y a la memoria de María Jesús, una figura muy
+                    importante en su historia.
+                </p>
+                <p>
+                    Cada preparación es una oportunidad para compartir
+                    nuestras raíces, mantener vivas las costumbres y recibir
+                    a cada visitante con la calidez de nuestro hogar.
+                </p>
+                <a href="#productos" class="enlace-flecha">Conoce nuestros platos <span>→</span></a>
+            </div>
+
+            <div class="mision-vision">
+                <article class="bloque-mv">
+                    <div class="mv-icono">✳</div>
+                    <h3>Nuestra misión</h3>
+                    <p>
+                        Ofrecer a los visitantes de Obonuco una experiencia
+                        de gastronomía tradicional, rescatando los sabores
+                        auténticos de la región y compartiendo nuestra cultura
+                        con calidez, calidad y dedicación.
+                    </p>
+                </article>
+
+                <article class="bloque-mv">
+                    <div class="mv-icono">❋</div>
+                    <h3>Nuestra visión</h3>
+                    <p>
+                        Ser un referente de la gastronomía tradicional de
+                        Obonuco, reconocido por preservar los sabores de
+                        nuestra tierra y conectar a las personas con las
+                        tradiciones y el legado de nuestra comunidad.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="esencia seccion" id="ventajas">
+            <div class="seccion-cabecera">
+                <span class="etiqueta">LO QUE NOS HACE ESPECIALES</span>
+                <h2>Más que comida, <em>una experiencia.</em></h2>
+                <p>Nos inspira el orgullo por nuestras raíces y el placer de compartirlas contigo.</p>
+            </div>
+
+            <div class="esencia-grid">
+                <article class="esencia-item">
+                    <span class="esencia-icono">❋</span>
+                    <h3>Sabor tradicional</h3>
+                    <p>Platos inspirados en las recetas y costumbres gastronómicas de nuestra región.</p>
+                </article>
+                <article class="esencia-item">
+                    <span class="esencia-icono">♡</span>
+                    <h3>Hecho con cariño</h3>
+                    <p>Cuidamos cada detalle para que te sientas bienvenido en nuestra mesa.</p>
+                </article>
+                <article class="esencia-item">
+                    <span class="esencia-icono">⌂</span>
+                    <h3>Raíces de Obonuco</h3>
+                    <p>Compartimos con orgullo la cultura, la memoria y las tradiciones de nuestra tierra.</p>
+                </article>
+                <article class="esencia-item">
+                    <span class="esencia-icono">✦</span>
+                    <h3>Momentos para recordar</h3>
+                    <p>Una invitación a disfrutar, conversar y crear recuerdos alrededor de la comida.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu-productos seccion" id="productos">
+            <div class="seccion-cabecera">
+                <span class="etiqueta">NUESTRO SABOR</span>
+                <h2>Delicias de <em>nuestra cocina.</em></h2>
+                <p>Conoce algunas de nuestras preparaciones tradicionales y arma tu pedido.</p>
+            </div>
+
+            <div class="productos">
+                <article class="tarjeta producto">
+                    <div class="producto-imagen">
+                        <img src="imagenes/producto.png" alt="Sancocho de gallina preparado tradicionalmente">
+                        <span class="producto-etiqueta">Tradicional</span>
+                    </div>
+                    <div class="producto-info">
+                        <span class="producto-categoria">SABOR DE CASA</span>
+                        <h3>Sancocho de gallina hecho en leña</h3>
+                        <p>Una preparación reconfortante que evoca la cocina tradicional y el sabor de hogar.</p>
+                        <div class="producto-pie">
+                            <span class="precio">$25.000</span>
+                            <button class="boton-agregar" type="button"
+                                    data-nombre="Sancocho de gallina hecho en leña" data-precio="25000">
+                                Agregar <span>+</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="tarjeta producto">
+                    <div class="producto-imagen">
+                        <img src="imagenes/producto2.png" alt="Almuerzo tradicional con cuy asado">
+                        <span class="producto-etiqueta">Especialidad</span>
+                    </div>
+                    <div class="producto-info">
+                        <span class="producto-categoria">RECETA REGIONAL</span>
+                        <h3>Almuerzo bandeja con cuy asado</h3>
+                        <p>Una preparación representativa de la región, ideal para disfrutar de nuestros sabores locales.</p>
+                        <div class="producto-pie">
+                            <span class="precio">$45.000</span>
+                            <button class="boton-agregar" type="button"
+                                    data-nombre="Almuerzo bandeja con cuy asado" data-precio="45000">
+                                Agregar <span>+</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="tarjeta producto">
+                    <div class="producto-imagen">
+                        <img src="imagenes/producto3.png" alt="Almuerzo tradicional con frito">
+                        <span class="producto-etiqueta">Favorito</span>
+                    </div>
+                    <div class="producto-info">
+                        <span class="producto-categoria">TRADICIÓN ANDINA</span>
+                        <h3>Almuerzo bandeja con frito</h3>
+                        <p>Una opción llena de sabor para compartir y disfrutar de la gastronomía de nuestra tierra.</p>
+                        <div class="producto-pie">
+                            <span class="precio">$35.000</span>
+                            <button class="boton-agregar" type="button"
+                                    data-nombre="Almuerzo bandeja con frito" data-precio="35000">
+                                Agregar <span>+</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <p class="nota-precios">* Precios de ejemplo. Actualízalos según los valores reales del emprendimiento.</p>
+            <button class="boton boton-principal boton-ver-carrito" id="btn-ver-carrito" type="button">
+                Ver mi pedido <span>→</span>
+            </button>
+        </section>
+
+        <section class="galeria-seccion seccion" id="galeria">
+            <div class="seccion-cabecera">
+                <span class="etiqueta">UN POCO DE LO NUESTRO</span>
+                <h2>Momentos con <em>identidad propia.</em></h2>
+                <p>Un vistazo a los sabores, paisajes y experiencias que nos inspiran.</p>
+            </div>
+
+            <div class="galeria">
+                <button class="galeria-foto" type="button" aria-label="Ampliar fotografía 1">
+                    <img src="imagenes/galeria1.jpg" alt="Imagen de nuestra tradición gastronómica" loading="lazy">
+                    <span>Ver imagen ↗</span>
+                </button>
+                <button class="galeria-foto" type="button" aria-label="Ampliar fotografía 2">
+                    <img src="imagenes/galeria2.jpg" alt="Imagen de nuestra comunidad y sus tradiciones" loading="lazy">
+                    <span>Ver imagen ↗</span>
+                </button>
+                <button class="galeria-foto" type="button" aria-label="Ampliar fotografía 3">
+                    <img src="imagenes/galeria3.jpg" alt="Imagen de nuestra tierra" loading="lazy">
+                    <span>Ver imagen ↗</span>
+                </button>
+                <button class="galeria-foto" type="button" aria-label="Ampliar fotografía 4">
+                    <img src="imagenes/galeria4.jpg" alt="Imagen de nuestros sabores tradicionales" loading="lazy">
+                    <span>Ver imagen ↗</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="testimonios-seccion seccion" id="testimonios">
+            <div class="seccion-cabecera">
+                <span class="etiqueta">VOCES DE NUESTROS VISITANTES</span>
+                <h2>Momentos que dejan <em>buen sabor.</em></h2>
+                <p>Compartimos algunas opiniones de clientes sobre su experiencia.</p>
+            </div>
+
+            <div class="testimonios">
+                <article class="testimonio">
+                    <div class="estrellas" aria-label="Cinco estrellas">★★★★★</div>
+                    <p>“El mejor cuy asado que he probado. Se nota la tradición en el sabor”.</p>
+                    <h3>Juan Pérez</h3>
+                    <span>Cliente</span>
+                </article>
+                <article class="testimonio">
+                    <div class="estrellas" aria-label="Cinco estrellas">★★★★★</div>
+                    <p>“Me gustó mucho. Era la primera vez que comía cuy y me quedaron ganas de volver”.</p>
+                    <h3>María Rodríguez</h3>
+                    <span>Cliente</span>
+                </article>
+                <article class="testimonio">
+                    <div class="estrellas" aria-label="Cinco estrellas">★★★★★</div>
+                    <p>“Me gustó mucho la comida. Me gustaría volver con toda mi familia”.</p>
+                    <h3>Carlos Gómez</h3>
+                    <span>Cliente</span>
+                </article>
+            </div>
+            <p class="nota-precios">* Verifica que las opiniones y los nombres publicados correspondan a testimonios autorizados.</p>
+        </section>
+
+        <section class="contacto-seccion seccion" id="contacto">
+            <div class="contacto-info">
+                <span class="etiqueta etiqueta-clara">ESTAMOS PARA ATENDERTE</span>
+                <h2>Hablemos y compartamos <em>algo delicioso.</em></h2>
+                <p>¿Tienes preguntas o quieres hacer un pedido? Escríbenos. Será un gusto atenderte.</p>
+
+                <div class="contacto-dato">
+                    <span class="contacto-icono">☎</span>
+                    <div><strong>Teléfono y WhatsApp</strong><a href="https://wa.me/573152174537" target="_blank" rel="noopener noreferrer">315 217 4537</a></div>
+                </div>
+                <div class="contacto-dato">
+                    <span class="contacto-icono">✉</span>
+                    <div><strong>Correo electrónico</strong><a href="mailto:herencia_y_sabor@gmail.com">herencia_y_sabor@gmail.com</a></div>
+                </div>
+                <div class="contacto-dato">
+                    <span class="contacto-icono">⌂</span>
+                    <div><strong>Estamos en</strong><span>Obonuco, Nariño, Colombia</span></div>
+                </div>
+            </div>
+
+            <div class="formulario-contenedor">
+                <h3>Envíanos un mensaje</h3>
+                <p>Completa los datos y continuaremos la conversación por WhatsApp.</p>
+                <form class="formulario" id="formulario-contacto">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="¿Cómo te llamas?" autocomplete="name" required minlength="2" maxlength="80">
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" autocomplete="email" required maxlength="120">
+
+                    <label for="mensaje">¿En qué podemos ayudarte?</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required minlength="5" maxlength="1000"></textarea>
+
+                    <button class="boton boton-principal boton-enviar" type="submit">Continuar por WhatsApp <span>→</span></button>
+                    <p class="aviso-formulario">Al continuar, se abrirá WhatsApp con tu mensaje preparado. Deberás enviarlo desde esa aplicación.</p>
+                    <p class="estado-formulario" id="estado-formulario" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <a class="marca marca-pie" href="#inicio"><span class="marca-icono">✦</span> Herencia <span class="marca-y">&</span> Sabor</a>
+        <p>Tradición, cultura y sabor desde Obonuco.</p>
+        <div class="pie-enlaces">
+            <a href="#nosotros">Nuestra historia</a>
+            <a href="#productos">Menú</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <p class="copyright">© <span id="anio-actual">2026</span> Herencia y Sabor. Todos los derechos reservados.</p>
+    </footer>
+
+    <a href="https://wa.me/573152174537" class="whatsapp" target="_blank"
+       rel="noopener noreferrer" aria-label="Contactar a Herencia y Sabor por WhatsApp">
+        <img src="imagenes/wat.png" alt="">
+    </a>
+
+    <button class="carrito-flotante" id="btn-abrir-carrito" type="button"
+            aria-label="Abrir carrito de compras" aria-controls="carrito-ventana" aria-expanded="false">
+        <span aria-hidden="true">🛒</span>
+        <span id="contador-carrito">0</span>
+    </button>
+
+    <div class="carrito-fondo" id="carrito-fondo"></div>
+
+    <aside class="carrito-lateral" id="carrito-ventana" aria-label="Tu pedido" aria-hidden="true">
+        <div class="carrito-contenido">
+            <div class="carrito-cabecera">
+                <div>
+                    <span class="etiqueta">HERENCIA Y SABOR</span>
+                    <h2>Tu pedido</h2>
+                </div>
+                <button id="btn-cerrar-carrito" class="btn-cerrar" type="button" aria-label="Cerrar carrito">&times;</button>
+            </div>
+
+            <div class="carrito-items" id="lista-carrito" aria-live="polite">
+                <div class="carrito-vacio">
+                    <span>🛍️</span>
+                    <p>Tu carrito está vacío.</p>
+                    <small>Agrega tus platos favoritos para comenzar.</small>
+                </div>
+            </div>
+
+            <div class="carrito-pie">
+                <div class="carrito-total">
+                    <span>Total estimado</span>
+                    <strong id="precio-total">$0</strong>
+                </div>
+                <p class="carrito-aclaracion">El total es estimado y se confirma al realizar el pedido.</p>
+                <button id="btn-enviar-whatsapp" class="btn-confirmar" type="button">
+                    Confirmar pedido por WhatsApp <span>→</span>
+                </button>
+                <button id="btn-vaciar-carrito" class="btn-vaciar" type="button">Vaciar carrito</button>
+            </div>
+        </div>
+    </aside>
+
+    <div class="visor-galeria" id="visor-galeria" role="dialog" aria-modal="true" aria-label="Visor de fotografías" aria-hidden="true">
+        <button class="visor-cerrar" id="visor-cerrar" type="button" aria-label="Cerrar imagen">&times;</button>
+        <button class="visor-flecha visor-anterior" id="visor-anterior" type="button" aria-label="Imagen anterior">‹</button>
+        <img id="visor-imagen" src="" alt="">
+        <button class="visor-flecha visor-siguiente" id="visor-siguiente" type="button" aria-label="Imagen siguiente">›</button>
+        <p id="visor-contador"></p>
+    </div>
+</body>
+</html>
